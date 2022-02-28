@@ -10,10 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QL_SuDungNuoc">
         <activity
-            android:name=".giaodien.ThongTinNhanVienActivity"
-            android:exported="false" />
-        <activity
-            android:name=".giaodien.DangNhapActivity"
+            android:name=".giaodien.DangNhap_NewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,8 +19,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".giaodien.ThongTinNhanVienActivity"
+            android:exported="false" />
+        <activity
+            android:name=".giaodien.DangNhapActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
             android:name=".giaodien.ThongBaoActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
